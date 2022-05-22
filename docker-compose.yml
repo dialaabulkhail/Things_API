@@ -22,9 +22,7 @@ services:
     # docker compose     - if its not the first time
 
     # compose up
-
     # go to settigns ALLOWED-HOST to ALLOWED_HOSTS = ['*','0.0.0.0']
-
 
     # watch recorded 
 
