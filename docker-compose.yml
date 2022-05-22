@@ -1,0 +1,32 @@
+version: '3.10'
+
+services:
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+
+
+    ## after creating those run command
+    # pip freeze
+    # pip freeze >requirements.txt 
+    #  or search for poetry commands
+
+    # a txt file will be created
+
+    # to run a container
+    # docker-compose build    - if its the fisrt time you run the container
+    # docker compose     - if its not the first time
+
+    # compose up
+
+    # go to settigns ALLOWED-HOST to ALLOWED_HOSTS = ['*','0.0.0.0']
+
+
+    # watch recorded 
+
+
+
